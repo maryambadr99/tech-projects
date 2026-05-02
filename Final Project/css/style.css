@@ -1,0 +1,364 @@
+/* reset style */
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+a {
+  /* font-size: 85%; */
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Global style */
+body {
+  overflow-x: hidden;
+}
+button {
+  font-family: Arial;
+}
+header {
+  font-family: Arial;
+}
+nav i {
+  color: #000;
+  font-size: small;
+}
+
+div.head,
+.red,
+nav,
+a {
+  color: #000;
+}
+
+div.head,
+nav,
+a:hover {
+  color: red;
+}
+small{
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s, border-width 0.3s;
+}
+small:hover{
+   border-color: black;
+}
+.form-btn {
+  width: 100%;
+  padding: 2%;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 90%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.form-btn:hover{
+  background-color: rgb(168, 14, 14);
+}
+.is-invalid {
+  border: 0.2em solid #e74c3c !important;
+}
+.bg-gray{
+  background-color: #aaaaaa33;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Customized style */
+.phone {
+  font-size: 198%;
+}
+.head .red{
+  color: #000;
+}
+.red {
+  color: inherit;
+}
+.red :hover {
+  color: red;
+}
+
+.phone-txt {
+  font-size: 87%;
+}
+/* .nav-list{
+    width: 15%;
+    padding-top: 1%;
+} */
+.input-group {
+  border-radius: 7px;
+  background-color: #e6e4e4e3;
+}
+.caption-left {
+  top: 25%;
+  left: 8%;
+  text-align: left;
+  width: 45%;
+}
+.text-right {
+  top: 25%;
+  left: 8%;
+  text-align: right;
+  width: 45%;
+}
+.bg-img1 {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-image: url(https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner1-mobile-demo1.jpg);
+  background-size: cover;
+}
+.bg-img2 {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-image: url(https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner2-mobile-demo1.jpg);
+  background-size: cover;
+}
+.textbox {
+  font-family: sans-serif;
+  font-size: 145%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.my-shadow {
+  box-shadow: 0px 3px 6px 1px lightgray;
+  transition: box-shadow 0.3s ease;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 275px;
+}
+.hot-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ff5722;
+  color: white;
+  font-size: small;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.banner img {
+  transition: transform 0.3s ease;
+}
+
+.banner:hover img {
+  transform: scale(1.05);
+}
+
+.banner .overlay {
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+}
+
+.banner:hover .overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.flash-deals-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+
+.flash-deals-bar h2 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.countdown {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.label {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.time {
+  background: black;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 50%;
+  font-weight: bold;
+  min-width: 30px;
+  text-align: center;
+}
+
+.flash-deals-bar a {
+  color: black;
+  text-decoration: underline;
+}
+.product-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.thumb-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.thumb-img.active {
+  border-color: #000;
+}
+.discount-badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: red;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.hoodie-box {
+  border-radius: 6px;
+  border: none;
+  box-shadow: -1px 1px 13px 0px #8b89897d;
+  background-color: white;
+  width: 33%;
+  position: absolute;
+  top: 14%;
+  top: 11%;
+  left: 63%;
+}
+
+.custom-btn {
+  font-size: small;
+  background-color: #e0e0e0;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.custom-btn:hover {
+  background-color: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #000;
+}
+#minPrice,
+#maxPrice {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #000000;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+.back-to-top:hover {
+  opacity: 0.9;
+}
+input.form-control::placeholder {
+  color: #aaa;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* frequently used */
+.w-10 {
+  width: 10%;
+}
+.d-flex {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.h-500 {
+  height: 500px;
+}
+.w-10 {
+  width: 10%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70;
+}
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
